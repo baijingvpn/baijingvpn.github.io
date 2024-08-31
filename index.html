@@ -1,856 +1,191 @@
 
-<!doctype html>
-<html class="js fontface cssanimations" lang="en" style="">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no">
-    <title data-i18n="index.public.title">白鲸加速器 - 永远能连上的加速器</title>
-
-    <meta name="format-detection" content="telephone=no">
-    <meta name="format-detection" content="email=no">
-    <meta name="description" content="白鲸加速器,永远能连上的加速器,长期免费用,安全保密,科学上网,一键连接,稳定快捷,多条线路,任你选择,3s极速链接，1000+应用支持">
-    <meta name="keywords" content="白鲸加速器">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>白鲸加速器-稳定高速的网络加速服务</title>
+    <meta name="keywords" content="白鲸加速器" />
+    <meta name="description" content="白鲸加速器是您安全浏览网络并突破地域限制的首选工具。保护网络隐私、解锁流媒体,提供高速、稳定的加速服务。立即体验白鲸加速器，畅享互联网的无限可能！" />
     
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="白鲸加速器 - 永远能连上的加速器">
-    <meta property="og:description" content="白鲸加速器,永远能连上的加速器,长期免费用,安全保密,科学上网,一键连接,稳定快捷,多条线路,任你选择,3s极速链接，1000+应用支持">
-    <meta property="og:url" content="https://www.bjchuhai.com/">
-    <meta property="og:image" content="https://www.bjchuhai.com/images/logo_512.png">
-    <meta property="og:site_name" content="白鲸加速器 - 永远能连上的加速器">
+    <meta name="description" content="白鲸加速器是您安全浏览网络并突破地域限制的首选工具。保护网络隐私、解锁流媒体,提供高速、稳定的加速服务。立即体验白鲸加速器，畅享互联网的无限可能！">
+    <meta property="og:title" content="白鲸加速器-稳定高速的网络加速服务" />
+    <meta property="og:description" content="白鲸加速器是您安全浏览网络并突破地域限制的首选工具。保护网络隐私、解锁流媒体,提供高速、稳定的加速服务。立即体验白鲸加速器，畅享互联网的无限可能！" />
+    <meta property="og:site_name" content="白鲸加速器" />
     
+    <link rel="canonical" href="https://xn--yfrw1g6t2b8ovxfn.com" />
     <link rel="icon" href="favicon.ico">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="favicon.ico">
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        li {
+            text-align: center;
+            color: #666;
+        }
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font.css" rel="stylesheet">
-    <link href="css/public.css?201906171335" rel="stylesheet">
-    <link href="css/footer_modal.css?201908301727" rel="stylesheet">
-    <link href="css/index.css??v=2" rel="stylesheet">
-    <script src="./assets/js/modernizr-3.3.1.js"></script>
-    <!--[if lte IE 9]>
-    <script src="./assets/js/html5shiv.min.js"></script>
-    <script src="./assets/js/respond.min.js"></script><![endif]-->
+img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+<a href="/"><img itemprop="image" src="白鲸加速器.png" alt="白鲸加速器" />
+<p></a>白鲸加速器,永远能连上的VPN,长期免费用,安全保密,科学上网,一键连接,稳定快捷,多条线路,任你选择,3s极速链接，1000+应用支持</p>
 </head>
-    <style>
-        .download_list{
-            width: 100px;background: linear-gradient(180deg, #fff, #eee);position: absolute;color: #4853e3;font-size: 1rem;
-            text-align: center; padding: 10px;box-shadow: 0 15px 25px 0 rgb(13 5 9 / 20%);    border-radius: 8px;margin-top: 1px;
-        }
-        .download_list a{
-            color: #4853e3;
-            display: block;
-            line-height: 35px;
-        }
-        .download_list_pc{
-            display: block;
-            position: fixed;
-            bottom: 0px;
-            width: 100%;
-            background: white;
-            text-align: center;
-        }
-        .download_list_pc a{
-            color: #4853e3;
-            display: block;
-            line-height: 50px;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-        .headerbg .headershow{
-            background: linear-gradient(120deg, #316bed, #3189ed 30%, #2ca2dc 50%, #38acdf 90%, #388ddf);
-        }
-        .tabcontent .download .btn{
-            color: #3a9ae6;
-        }
-        .download_list a{
-            color: #3a9ae6;
-        }
-        .hide{
-            display: none;
-        }
-        .dropdown{
-            display: block !important;
-        }
-        .ritem2{
-            position: fixed;
-            right: 35px;
-            top: 80px;
-            z-index: 1000;
-            color: #333;
-            text-decoration: underline;
-            border-radius: 5px;
-            background-color: white !important;
-            font-size: 16px;
-            padding: 10px 20px;
-            font-weight: 500;
-        }
-        .ritem{
-            position: fixed;
-            right: 35px;
-            z-index: 1000;
-            color: #333;
-            color: #333;
-            text-decoration: underline;
-            border-radius: 5px;
-            background-color: white !important;
-            font-size: 16px;
-            padding: 10px 20px;
-            font-weight: 500;
-        }
-
-        @media screen and (max-width: 760px) {
-            
-            .ritem2{
-                position: fixed;
-                right: 20px;
-                top: 45px;
-                z-index: 1000;
-                color: #333;
-                text-decoration: underline;
-                border-radius: 5px;
-                background-color: white !important;
-                font-size: 16px;
-                padding: 5px 10px;
-                font-weight: 500;
-            }
-            .ritem{
-                position: fixed;
-                right: 20px;
-                top: 5px;
-                z-index: 1000;
-                color: #333;
-                color: #333;
-                text-decoration: underline;
-                border-radius: 5px;
-                background-color: white !important;
-                font-size: 16px;
-                padding: 5px 10px;
-                font-weight: 500;
-            }
-            
-        }
-
-        .xinfo{font-size: 12px;}
-        #tg{
-            width: 100%;
-            text-align: center;
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
-        #tg img{
-            max-width: 886px;
-            width: 100%;
-        }
-        
-    </style>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TCQZ42TWD3"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-TCQZ42TWD3');
-    </script>
-
 <body>
-    
-<div itemscope="" itemtype="http://schema.org/SoftwareApplication" id="wrapper">
-    <div class="headerbg rushow">
-        <div class="headershow">
-            <div class="reactout"></div>
-            <div class="reactinner"></div>
-        </div>
+    <div itemscope itemtype ="http://schema.org/SoftwareApplication" >
+      <ol>
+      <li>
+        
+<a itemprop="downloadUrl" href="https://www.bjchuhai.com/app/download?platform=2&channel=download_01&mid=1014&ts=1704273011404&app=bj" class="download-button" rel="nofollow" target="_blank">Android 安卓VPN APK 下载</a><br>
+        支持设备:<span itemprop="operatingSystem">ANDROID</span>
+        类型: <span itemprop="applicationCategory" content="UtilitiesApplication">VPN</span><br>
+        版本: <span itemprop="softwareVersion" >1.45</span>
+<br>
+      </li>
+      <li>
+        <a itemprop="downloadUrl" href="https://www.bjchuhai.com/app/download?platform=3&channel=download_01&mid=1014&ts=1704273011404&app=bj" class="download-button" rel="nofollow" target="_blank">Windows 电脑VPN 下载</a><br>
+        支持:<span itemprop="operatingSystem">Windows 电脑 系统</span>
+        类型: <span itemprop="applicationCategory" content="UtilitiesApplication">VPN</span><br>
+        版本: <span itemprop="softwareVersion" >2.9.0.0</span>
+      <br>
+      </li>
+      <li>
+        <a itemprop="downloadUrl" href="https://www.bjchuhai.com/app/download?platform=4&channel=download_01&mid=1014&ts=1704273011404&app=bj" class="download-button" rel="nofollow" target="_blank">Mac 电脑VPN 下载</a><br>
+        支持设备:<span itemprop="operatingSystem">Mac OS 电脑 系统</span>
+        类型: <span itemprop="applicationCategory" content="UtilitiesApplication">VPN</span><br>
+        版本: <span itemprop="softwareVersion" >火箭加速器</span>
+      </li>
+    </ol>
     </div>
-    <header class="topcont cont fixtop">
-        <div class="row">
-            <div class="col-xs-9 col-sm-4">
-                <a class="refresh logo" href="/">
-                    <img class="fiximg" src="./images/logo_512.png" alt="白鲸加速器">
-                    <span data-i18n="index.public.name">白鲸加速器</span>
-                </a>
-            </div>
-            <div class="col-sm-8 hidden-xs nopadding"></div>
-            <div class="col-xs-3 visible-xs text-right nav dropdown">
-                <a href="/webpay/index.html" class="ritem2" target="_blank" > 套餐购买 </a>
-                <a href="javascript:advertising();" class="ritem" > 推广赚现金 </a>
-            </div>
-        </div>
-    </header>
-    <div class="tabhome">
-        <div class="tabmain">
-            <div class="tabcontent enshow cont">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 titleshow">
-                        <h1 class="enshow twshow rushow"> 永远能连上的VPN</h1>
-                        <div class="row circle clearfix enshow rushow">
-                            <li class="enshow rushow">
-                                <strong>3</strong>s<span>极速连接</span>
-                            </li>
-                            <li class="enshow rushow">
-                                <strong></strong>长期<span>免费使用</span>
-                            </li>
-                            <li class="enshow rushow">
-                                <strong>1000</strong>+<span>应用支持</span>
-                            </li>
-                        </div>
-                        <div class="download enshow rushow">
-                            <section class="clearfix">
-                                <a class="btn hidden-xs hidden-sm btn-win pstfg" href="#" id="download_windows1">
-                                    <i class="letsicon-windows"></i>
-                                    <span>
-                                        <strong>Windows版下载</strong>
-                                        <span class="rushow">Windows</span>
-                                    </span>
-                                </a>
-                                <a class="btn hidden-xs hidden-sm btn-win pstfg" href="#" id="download_mac1">
-                                    <i class="letsicon-apple"></i>
-                                    <span>
-                                        <strong>Mac版下载</strong>
-                                        <span class="rushow">mac</span>
-                                    </span>
-                                </a>
-                                
-                                <a class="btn hidden-xs hidden-sm pstfg btn-others"
-                                   href="#" id="download_apk1">
-                                    <img src="./images/android.png" alt="安卓版下载">
-                                    <span>
-                                        <strong>安卓版下载</strong>
-                                        <span class="rushow">android</span>
-                                    </span>
-                                </a>
-                                <a class="btn hidden-xs hidden-sm btn-win pstfg" href="appstore/appstore.html" id="download_ios">
-                                    <i class="letsicon-apple"></i>
-                                    <span>
-                                        <strong>IOS版下载</strong>
-                                        <span class="rushow">mac</span>
-                                    </span>
-                                </a>
-                                <a class="btn btn-down btn-az visible-az pstfg hidden-md hidden-lg"
-                                   href="#" style="display: none;" id="download_apk2">
-                                    <i class="letsicon-android"></i>
-                                    <span>安卓版下载</span>
-                                </a>
 
-                                <a class="btn btn-down btn-win visible-win pstfg hidden-md hidden-lg"
-                                   href="#" style="display: block;margin-bottom: 5px;" id="download_windows2">
-                                    <i class="letsicon-windows"></i>
-                                    <span>Windows版下载</span>
-                                </a>
+<h1 style="color:red;font-size:20px" itemprop="name"><strong>白鲸加速器</strong>-稳定高速的网络加速服务</h1>
+<h2>白鲸加速器是什么？</h2>
+<p>白鲸加速器是一款专为电脑和安卓设备设计的高效VPN服务！无论你身在何处，只要使用白鲸加速器，你就可以立即享受无限自由上网的乐趣。白鲸加速器的独特技术能够轻松突破地域限制和网络封锁，让你畅游互联网的海洋。无论你是想畅游社交媒体、观看国际热门视频还是隐私保护，白鲸加速器都能完美胜任。它不仅加速你的网络连接，还保护你的个人隐私，确保你的上网活动始终安全无忧。现在就下载白鲸加速器，开启属于你自己的上网时代吧！</p>
+<h2>为什么选择白鲸加速器？</h2>
+<p>
+- 快速连接：无论您在哪里，我们的高速服务器将确保您获得稳定，无延迟的网络连接。<br>
+- 安全保护：我们的加密技术将保护您的数据不受黑客和监控的侵扰。<br>
+- 解除封锁：通过连接到我们的 白鲸加速器 服务器，您可以访问全球范围内被屏蔽的网站和应用。<br>
+- 跨平台兼容：我们的 白鲸加速器 适用于您最喜爱的设备和操作系统，包括Windows，Mac，和Android。
+</p>
 
-                                <a class="btn btn-down btn-win visible-win pstfg hidden-md hidden-lg"
-                                   href="#" style="display: block;" id="download_mac2">
-                                    <i class="letsicon-apple"></i>
-                                    <span>Mac版下载</span>
-                                </a>
-                                
-                                <a class="btn btn-down btn-win visible-win pstfg hidden-md hidden-lg"
-                                   href="appstore/appstore.html" style="display: block;margin-top: 5px;" id="download_ios2">
-                                    <i class="letsicon-apple"></i>
-                                    <span>IOS版下载</span>
-                                </a>
-
-                            </section>
-                        </div>
-                        <div id="invite_code_div" style="margin-top: 15px; display: none;">
-                            <div class="invite_code"
-                                 style="display: block;width: 60%; text-align: center; margin: 0px auto 0.3em; color: rgb(253, 253, 253); font-size: 14px; padding: 5px 0px; border: 3px solid; border-radius: 10px;">
-                                <span>邀请码：JKKAGG</span>
-                            </div>
-                            <div class="invite_code_msg"
-                                 style="margin: 10px 0 0 0; border: 3px solid yellow; border-radius: 10px; text-align: center; font-size: 14px; font-weight: bold; color: rgb(78, 173, 193);background: yellow; padding: 3px 5px;">
-                                邀请朋友注册时，请通知他输入此邀请码，双方都可延长1个月套餐有效期，并且您本人套餐提速5%
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="appShow isnoru">
-                            <img class="" src="./images/logo_512.png" width="100%" height="100%" style="display: block;" alt="白鲸加速器" >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main enshow rushow">
-            <div class="cont clearfix">
-                <div class="col-xs-12 clearfix dexcItem">
-                    <div class="col-xs-12 col-sm-6 des-article" data-scroll-reveal="enter left and move 50px over 0.5s">
-                        <h3 class="enshow">
-                            <img src="./images/desc1.png" alt="智能AI连接，只需三秒">
-                            <span data-i18n="index.main.Intelligenttitle">智能AI连接，只需三秒</span>
-                        </h3>
-                        <p class="enshow rushow" data-i18n="index.main.Intelligentcont">
-                            白鲸加速器采用了全新内核，智能AI连接，自动选择最优线路，不论您在哪里，按下软件开启按钮后只需轻轻等待，3～2～1，即可连接成功，体验丝滑般的享受。</p></div>
-                    <div class="col-xs-12 col-sm-6 des-icon" data-scroll-reveal="enter right and move 50px over 0.5s">
-                        <img class="exchange" src="./images/icon_safe.png" datasrc="./images/icon_safe.png" alt="智能AI连接，只需三秒">
-                    </div>
-                </div>
-                <div class="col-xs-12 clearfix dexcItem">
-                    <div class="col-sm-6 des-icon hidden-xs" data-scroll-reveal="enter left and move 50px over 0.5s">
-                        <img class="exchange" src="./images/icon_node.png" datasrc="./images/icon_node.png" alt="科学上网，没有任何限制">
-                    </div>
-                    <div class="col-xs-12 col-sm-6 des-article"
-                         data-scroll-reveal="enter right and move 50px over 0.5s"><h3 class="enshow">
-                             <img src="./images/desc2.png" alt="科学上网，没有任何限制">
-                             <span data-i18n="index.main.Scientifictitle">科学上网，没有任何限制</span>
-                    </h3>
-                        <p class="enshow rushow" data-i18n="index.main.Scientificcont">
-                            通过白鲸加速器您可以访问国内外任何角落，任何内容，我们使用各种技术绕过互联网审查和防火墙，所以您完全不用担心您的隐私安全和访问记录。</p></div>
-                    <div class="col-xs-12 visible-xs des-icon" data-scroll-reveal="enter left and move 50px over 0.5s">
-                        <img class="exchange" src="./images/icon_node.png" datasrc="./images/icon_node.png" alt="科学上网，没有任何限制">
-                    </div>
-                </div>
-                <div class="col-xs-12 clearfix dexcItem">
-                    <div class="col-xs-12 col-sm-6 des-article" data-scroll-reveal="enter left and move 50px over 0.5s">
-                        <h3 class="enshow rushow">
-                            <img src="./images/desc3.png" alt="全球服务器部署，稳定快捷">
-                            <span data-i18n="index.main.Globaltitle">全球服务器部署，稳定快捷</span></h3>
-                        <p class="enshow rushow" data-i18n="index.main.Globalcont">
-                            白鲸加速器内置多个国家的线路选择，每个国家又部署了不同的服务器，基于全球的服务器网络，连接速度及稳定有充分保障，无限带宽，无任何网络节流。</p></div>
-                    <div class="col-xs-12 col-sm-6 des-icon" data-scroll-reveal="enter right and move 50px over 0.5s">
-                        <img class="exchange" src="./images/icon_service.png" datasrc="./images/icon_service.png" alt="全球服务器部署，稳定快捷">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="product">
-            <h2 class="enshow" data-i18n="index.evaluation">用户评价</h2>
-            <div class="evaluation clearfix">
-                <p class="evacont">Приложение харошое! Самое главное в нём, что оно
-                работает в ТМ!) Всем советую скачивать это приложение! Большое спасибо разработчикам!!!</p>
-                <div class="evaimg carousel" data-ride="carousel">
-                    <ul class="carousel-inner" role="listbox">
-                        <a class="carleft carousel-control iehide" href="javascript:void(0)" role="button" data-slide="prev" style="display: inline;">
-                            <img src="./images/arrow.svg" style="transform:rotate(180deg)" alt="trun left">
-                        </a>
-                        <a class="carleft carousel-control glyphicon glyphicon-arrow-left ieShow"
-                           href="javascript:void(0)" role="button" data-slide="prev" style="display: none;"></a>
-                        <a class="carright carousel-control iehide" href="javascript:void(0)" role="button"
-                           data-slide="next" style="display: inline;">
-                           <img src="./images/arrow.svg" alt="trun right">
-                        </a>
-                        <a class="carright carousel-control glyphicon glyphicon-arrow-right ieShow"
-                           href="javascript:void(0)" role="button" data-slide="next" style="display: none;"></a>
-                        <div class="ulshow">
-                            <div class="imglist" style="left: 0px;">
-                                <li class="item">
-                                    <img src="./images/user16.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5></h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item active">
-                                    <img src="./images/user17.png" alt="user">
-                                    <div class="carousel-caption" style="display: block;">
-                                        <h5>Nurik Seidov</h5>
-                                        <span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <img src="./images/user18.png" alt="Google play">
-                                    <div class="carousel-caption" style="display: none;">
-                                        <h5></h5>
-                                        <span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <img src="./images/user19.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Batyr Gylyjow</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user20.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Amangeldi G</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user21.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Фран__ _Тихан</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user22.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Selim Suleymanow</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user23.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>محسن محسنی</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user24.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>دزدان دریایی جک گنجشکه</h5>
-                                        <span>Google play</span></div>
-                                </li>
-                                <li class="item"><img src="./images/user25.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>ناشناس</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user26.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>anoniman</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user27.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>anonim</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user1.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>18岁少年</h5>
-                                        <span>Appstore</span></div>
-                                </li>
-                                <li class="item"><img src="./images/user2.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>clapclap family</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user3.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Star Moon</h5>
-                                        <span>个人用户</span></div>
-                                </li>
-                                <li class="item"><img src="./images/user4.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>你的英雄～</h5>
-                                        <span>Appstore</span></div>
-                                </li>
-                                <li class="item"><img src="./images/user5.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Google 用户</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user6.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>芒果味的小仙女</h5>
-                                        <span>个人用户</span></div>
-                                </li>
-                                <li class="item"><img src="./images/user7.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Alexa Vega</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user8.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Rajesh Kapur</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user9.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Nazmin Islam</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user10.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Abir Mahmud</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user11.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>culminal enterograph</h5>
-                                        <span>Google play</span></div>
-                                </li>
-                                <li class="item"><img src="./images/user12.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>Min-John Lee</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user13.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>WNFGi KPpNn</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user14.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>iCOZp vZyQD</h5><span>Google play</span>
-                                    </div>
-                                </li>
-                                <li class="item"><img src="./images/user15.png" alt="user">
-                                    <div class="carousel-caption" style="display: none;"><h5>阿憲</h5>
-                                        <span>Google play</span></div>
-                                </li>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-        <div class="modal score" id="score" tabindex="-1" role="dialog">
-            <div itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"><span
-                    itemprop="ratingValue">4.8/5</span><span itemprop="ratingCount">13040</span></div>
-        </div>
-    </div>
-</div>
-
-<div style="text-align: center;font-size: 14px;padding-bottom: 15px;">
-    <a href="mailto:bjchuhai@proton.me"><img src="./images/1.png" style="width: 22px;"> 邮箱：bjchuhai@proton.me </a>&nbsp;&nbsp;
-    <a href="https://twitter.com/GardnerDanna1"><img src="./images/2.png" style="width: 22px;"> 推特：https://twitter.com/GardnerDanna1 </a>
-</div>
-
-<div class="modal tip" id="tip" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body"><p class="tiptext"></p></div>
-        </div>
-    </div>
-</div>
-
-
-<div class="modal " id="tg" tabindex="-1" role="dialog">
-    <img src="./images/tg.png">
-</div>
-
-<div class="wxtip" id="weixinTip">
-    <span class="wxtip-icon"></span>
-    <p class="wxtip-txt">
-        <span data-i18n="weixin.teltext">点击右上角按钮</span><br>
-        <span  data-i18n="weixin.open">选择在浏览器中打开</span></p>
-    <p class="wxtip-pc-txt">
-        <span data-i18n="weixin.pctext">请在其它浏览器中打开此页面</span>
+<h2>白鲸加速器的独特特点：</h2>
+<p>
+1. 智能路由：我们的智能路由技术将自动为您选择最快速的服务器，以确保您始终获得最佳的连接性能。<br>
+2. 无限带宽：不像其他 VPN 服务商对带宽有限制，我们提供无限带宽，让您畅享高速上网的乐趣。<br>
+3. 全球覆盖：我们在全球范围内拥有多个服务器节点，为您提供低延迟和稳定的连接。<br>
+4. 用户友好的界面：我们的简洁，直观的界面使您轻松连接到VPN，即使您是第一次使用。保护您的网络隐私，让您自由访问无限内容，
+<br>现在就加入白鲸加速器！立即注册获取我们最新优惠，开始畅享高速安全的互联网体验。</p>
+<h2>我需要支付费用才能使用白鲸加速器吗？</h2>
+<p>白鲸加速器提供免费和付费两种版本。免费版本提供基本的VPN服务，虽然不限制流量使用，但网速会受到一定限制，而付费版本提供更快速、稳定和更多服务器节点的连接。</p>
+<h2>是否可以在多个设备上同时使用白鲸加速器？</h2>
+<p>VIP/SVIP账号最多2台设备同时连接使用（包括手机端和电脑端），超出此规则将被限速或者断流，多次违反将永久封号，请大家珍惜自己账号不要外传。<br>
+※ 更换设备时，在旧设备退出，新设备登录，不受多设备使用限制影响，请放心使用。</p>
+<h2>如何联系白鲸加速器的客服团队？</h2>
+<p>遇到任何问题，请在白鲸加速器APP主页鲸鱼标志左下角，联系客服工单反馈！处理时间：10:00~23:30 (北京时间)，我们将会尽快回复您，请您耐心等待，稍安勿躁。</p>
+<h2>白鲸加速器有退款政策吗？</h2>
+<p>白鲸加速器提供根据实际情况而定的退款政策，请在购买前阅读并了解相关条款。但实际上我们的退款率非常低，因为我们的白鲸加速器无论是稳定性还是性价比方面都让绝大部分客户达到满意并愿意推荐给朋友使用！</p>
+<h2>如何使用白鲸加速器：白鲸加速器在电脑和安卓设备上的设置</h2>
+<p>
+白鲸加速器是一个强大而可靠的 VPN 服务，可以让您在电脑和安卓设备上享受安全、快速的网络连接。本指南将教您如何设置和使用白鲸加速器，以便您能够畅游互联网。
+<br>
+<h3>步骤1：下载 白鲸加速器 应用</h3>
+<p>首先，在您的设备上打开白鲸加速器官网，选择并下载“白鲸加速器”应用。并下载适用于您操作系统的版本。
+<h3>步骤2：安装 白鲸加速器 应用</h3>
+<p>在安卓设备上，找到下载的应用并点击安装。在电脑上，双击下载的安装包并按照提示进行安装。</p>
+<h3>步骤3：注册并登录账户</h3>
+<p>打开白鲸加速器应用后，您将看到注册和登录选项。如果您已经拥有账户，请直接登录。如果没有，请点击注册并按照提示填写所需信息来创建一个新账户。</p>
+<h3>步骤4：连接 白鲸加速器 VPN</h3>
+<p>以安卓手机版为例，在登录后，您将看到白鲸加速器的主界面。要连接到VPN服务器，请点击主页的”鲸鱼LOGO“”按钮。系统会自动选择最佳服务器进行连接，但您也可以手动选择一个特定的服务器。</p>
+<h3>步骤5：选择 白鲸加速器的VPN代理模式</h3>
+<p>白鲸加速器 提供了智能代理模式和全局代理模式供您选择。
+智能模式：仅对国外网站和 APP 进行加速）
+全局模式：对全局进行加速（可能会导致国内的一些网站APP访问速度变慢）
+您可以根据个人需求选择最适合您的设置。</p>
+<h3>步骤6：享受安全、快速的网络连接</h3>
+<p>当您完成上述步骤后，您的电脑或安卓设备将已成功连接到 白鲸加速器 VPN。您可以尝试浏览不同的网页、观看流媒体或下载文件，享受更安全、更快速的网络连接。
+白鲸加速器帮助您保护个人隐私，并绕过区域限制，让您在全球各地畅享互联网。开始使用白鲸加速器，体验高速、安全的VPN服务！
+<br>请注意：使用白鲸加速器服务时，请遵守当地法律法规，并尊重服务提供商的使用条款。
+祝您上网愉快！ </p>
+<h2>安卓VPN 常见问题解答</h2>
+<h3>安卓VPN 打开后提示 "App初始化失败" </h3>
+<p>长按白鲸加速器 app 应用图标 - 详情 - 清楚全部数据与缓存 即可解决。</p>
+<h3>连接 白鲸VPN 后如何下载 X(Twitter推特)、Youtube(油管)、Instagram等热门应用程序 </h3>
+<p>打开白鲸加速器 APP，主页右上角“热门APP”即可下载安装最新最流行的热门软件</p>
+<h3>注册谷歌/推特账户提示：此电话号码无法用于进行验证。</h3>
+<p>由于当前 IP 地址注册账号过多所致。断开重连或切换线路/ip即可。</p>
+<h3>华为鸿蒙系统连接加速器后无网络 </h3>
+<p>※ 部分华为鸿蒙系统小伙伴发现连接加速器安卓版后无网络，是因为升级鸿蒙系统后默认禁止了加速器的后台活动。<br>
+解决方案:<br>
+方法一：重装加速器 APP，请至官网下载最新版本安装包<br>
+方法二：在系统设置中，找到启动管理/应用启动管理，关闭加速器APP的自动管理开关，并在弹框中勾选允许后台活动。</p>
+<h2>白鲸加速器电脑版常见问题解答</h2>
+<h3>白鲸加速器 电脑VPN 连接后无网络/无法访问网站</h3>
+<p>新买的电脑系统默认账户没有管理员权限或使用过其他加速器 VPN 程序：<br>
+首先找到电脑桌面上的白鲸加速器电脑版软件，鼠标右键单击 Whale.exe 选择以管理员身份运行。<br>
+<p>如果上述方法解决了您的问题，可在右键菜单 - 属性 - 兼容性 - 以管理员身份运行此程序 选项前打 √ 并保存。</p>
+电脑时间不同步：检查电脑屏幕右下角的 时间与日期，时间慢或者快。<br>
+<p>在电脑屏幕右下角显示 “时间和日期” 的区域，单机鼠标 右键菜单 - 调整日期/时间" - 同步时钟 - 立即同步！<br>
+若同步后如果还会发生时间不准的情况，就是电脑使用时间太长，电脑主板上用于保存BIOS信息的纽扣电池没电了，导致无法正常保存时间及主板BIOS设置等信息，更换对应型号纽扣电池即可。</p>
+<h3>白鲸加速器电脑版客户端如何切换账号？</h3>
+<p>鼠标点击右下角托盘程序中的鲸鱼标志，把的自动登录选项的对钩√取消。重新打开白鲸加速器程序即可！</p>
+<h3>白鲸加速器电脑版如何切换智能加速模式/全局加速模式？</h3>
+<p>鼠标点击右下角托盘程序中的鲸鱼标志，全局加速模式下所有程序都会经过代理，例如电脑上QQ都会显示在美国/香港等地登录。分配给浏览器的带宽就变少了，浏览网页网速相对会慢。所以没有特殊的需求，可更改为智能加速模式：只对浏览器和常见的国外软件生效。网速也会快一些。</p>
+<h3>白鲸加速器电脑版程序打开后提示：安全检查失败！</h3>
+<p>电脑开机后请稍等片刻，等电脑无线WI-FI网络连接完毕，再运行加速器程序。 (你打开白鲸加速器的动作太快了！电脑刚刚开机，此时还没来得及连接上网络！)</p>
+<h3>白鲸加速器电脑版打开程序提示：Shadowsocks Error 错误</h3>
+<p>版本太旧，需要更新一下，请去官网重新下载新版。</p>
+<p></p>
+ <h2>账户问题</h2>
+<h3>找回密码</h3>
+<p>方法1：<br>
+在登录界面通过安全问题找回密码<br>
+方法2：<br>
+1）如果未设置过安全问题，请使用注册加速器官方邮箱账户发一封邮件，说明需要找回密码<br>
+2）联系客服提交需要找回的加速器邮箱账号
+</p>
+ <h2>其他问题</h2>
+<h3>白鲸加速器安全吗？</h3>
+<p>
+1）白鲸加速器采用安全加密技术，不会影响网络安全性，反而会提升您的网络隐私保护。<br>
+2）首先公司注册地在加拿大，符合当地政府法律法规。<br>
+3）加速器APP有内置的防封升级机制，如果APP被技术封锁，会发升级通知更新到新版本。<br>
+4）如果官网被技术封锁，新的白鲸加速器官网地址会通过您的注册邮箱发送给您。<br>
+5）VIP用户有单独的线路，有更高的防封锁机制。<br>
+6)  提供 免费VPN 线路以及 付费VPN 线路可选。安卓VPN 和 电脑VPN 用户可根据自身需求进行选择。</p>
+ 
+    <h3>白鲸加速器怎么注册？</h3>
+    <p>
+	当你注册账户时会发现，白鲸加速器是不需要邮箱验证码验证的，大大增加了安全性和隐私性，所以您可以任意编写一个自己能记住的邮箱用户名来进行注册。请牢记您的用户名，如果您不小心忘记了密码，可以联系客服处理!
     </p>
-</div>
-
-<div class="download_list" id="download_list" style="display: none;"></div>
-<div class="download_list_pc" id="download_list_pc" style="display:none;"></div>
-
-
-<script src="assets/js/jquery-2.2.4.js"></script>
-
-
-<link rel="stylesheet" href="./dist/jquery-confirm.min.css">
-<script src="./dist/jquery-confirm.min.js"></script>
-
-<!--[if lt IE 9]>
-<script src="assets/js/jquery-1.9.1.js"></script><![endif]-->
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquerymd5.js"></script>
-<!--<script src="assets/js/i18n.js"></script>-->
-<script src="assets/js/parseTime.js?201906281155"></script>
-<script src="assets/js/envdetector-1.0.0.js"></script>
-<script src="assets/js/scrollReveal.js"></script>
-<script src="js/public.js??v=3"></script>
-<script src="js/index2.js?v=202205"></script>
-<script src="downurl.js?v=1648437122"></script>
-<script>
-
-
-    // 点击网页任何地方
-    $(document).bind("click", function(e) {
-        var __target = $(e.target);
-
-        if (
-            __target.closest("#download_apk3").length == 0 &&
-            __target.closest("#download_windows3").length == 0 &&
-            __target.closest("#download_apk2").length == 0 &&
-            __target.closest("#download_mac2").length == 0 &&
-            __target.closest("#download_windows2").length == 0 &&
-            __target.closest("#download_apk1").length == 0 &&
-            __target.closest("#download_mac1").length == 0 &&
-            __target.closest("#download_windows1").length == 0 &&
-            __target.closest("#download_list_pc").length == 0 &&
-            __target.closest("#download_list").length == 0 )
-        { //点击id为sibader之外的地方触发
-            //do something...
-            $("#download_list").hide();
-            $("#download_list_pc").hide();
-        }
-    });
-
-    function getPosition(element, name){
-        name = name.toLowerCase().replace("left", "Left").replace("top", "Top");
-        var offset = 'offset' + name;
-        var actualLeft = element[offset];
-        var current = element.offsetParent;
-        while (current !== null){
-            actualLeft += current[offset];
-            current = current.offsetParent;
-        }
-        return actualLeft;
-    }
-
-
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split("=");
-            if (pair[0] == variable) {
-                return pair[1];
-            }
-        }
-        return (false);
-    }
-
-    var icode = getQueryVariable('invite_code');
-    var mid = getQueryVariable('mid');
-    var ts = Date.now();
-
-
-    if (icode && icode.length > 0) {
-        $(".invite_code").html("邀请码：" + icode);
-        $("#invite_code_div").show();
-    }
-
-    $(document).ready(function(){
-        $.ajax({
-            type: "GET",
-            contentType: "text/html; charset=UTF-8",
-            url: "/track/dom/ready?mid="+mid
-        });
-
-        // addDownloadLkN("apk",2,"lzy","下载渠道一(推荐)");
-        addDownloadLkN("apk",2,"download_01","下载渠道一(推荐)");
-        addDownloadLkN("apk",2,"download_02","下载渠道二");
-
-        // addDownloadLkN("win",3,"lzy","下载渠道一(推荐)");
-        addDownloadLkN("win",3,"download_01","下载渠道一(推荐)");
-        addDownloadLkN("win",3,"download_02","下载渠道二");
-
-        // addDownloadLkN("osx",4,"lzy","下载渠道一(推荐)");
-        addDownloadLkN("osx",4,"download_01","下载渠道一(推荐)");
-        addDownloadLkN("osx",4,"download_02","下载渠道二");
-
-        var win0 = "/app/download?platform=3&channel=download_01&mid="+mid+"&app=bj";
-        var osx0 = "/app/download?platform=4&channel=download_01&mid="+mid+"&app=bj";
-        var apk0 = "/app/download?platform=2&channel=download_01&mid="+mid+"&app=bj";
-
-
-        $("#download_windows1").attr("href" , "javascript:download('"+win0+"')");
-        $("#download_windows4").attr("href" , "javascript:download('"+win0+"')");
-
-        $("#download_mac1").attr("href" , "javascript:download('"+osx0+"')");
-        $("#download_mac3").attr("href" , "javascript:download('"+osx0+"')");
-
-        $("#download_apk1").attr("href" , "javascript:download('"+apk0+"')");
-        $("#download_apk4").attr("href" , "javascript:download('"+apk0+"')");
-
-
-        $("#download_windows1").mouseover(function () {
-            $(".download_list .win").show();
-            $(".download_list .apk").hide();
-            $(".download_list .osx").hide();
-            pcdownlist(document.getElementById("download_windows1"));
-        });
-        $("#download_mac1").mouseover(function () {
-            $(".download_list .win").hide();
-            $(".download_list .apk").hide();
-            $(".download_list .osx").show();
-            pcdownlist(document.getElementById("download_mac1"));
-        });
-        $("#download_apk1").mouseover(function () {
-            $(".download_list .win").hide();
-            $(".download_list .apk").show();
-            $(".download_list .osx").hide();
-            pcdownlist(document.getElementById("download_apk1"));
-        });
-
-    });
-
-    $(window).on("load", function() {
-        $.ajax({
-            type: "GET",
-            contentType: "text/html; charset=UTF-8",
-            url: "/track/window/load?mid="+mid
-        });
-    });
-
-
-    function addDownloadLkN(type , platform, channel , text) {
-        var url = "/app/download?platform="+platform+"&channel="+channel+"&mid="+mid+"&ts="+ts+"&app=bj";
-        $("#download_list").append(`<a class="${type}" href="${url}" target="_blank">${text}</a>`);
-        $("#download_list_pc").append(`<a class="${type}" href="${url}" target="_blank">${text}</a>`);
-    }
-
-    function addDownloadLk(type , url , text) {
-        $("#download_list").append(`<a class="${type}" href="${url}" target="_blank">${text}</a>`);
-        $("#download_list_pc").append(`<a class="${type}" href="${url}" target="_blank">${text}</a>`);
-    }
-
-
-    function download(url){
-        var ua = navigator.userAgent.toLocaleLowerCase();
-        console.log(ua);
-        var isEdge = ua.indexOf("Edge") >= 0;
-        var isChrome = ua.indexOf("chrome") >= 0;
-        var isSafari = ua.indexOf("safari") >= 0;
-        var isWinNt = ua.indexOf("windows nt") > 0;
-        var isMac = ua.indexOf("mac") > 0;
-        var isApplewebkit = ua.indexOf("applewebkit") > 0;
-
-        var isAndroid11 = ua.indexOf("android11") >= 0;
-        // if(!isEdge && ua.indexOf("chrome") > 0 && (ua.indexOf("windows nt") > 0 || ua.indexOf("mac") > 0 ) && ua.indexOf("safari") >= 0 && ua.indexOf("applewebkit") > 0 && this.getBrowserInfo()=="chrome"){
-        if( !isEdge && isChrome && (isWinNt || isMac  || isAndroid11) && isSafari && isApplewebkit && this.getBrowserInfo()=="chrome"){
-            // if(!isEdge && isChrome && isSafari && isApplewebkit && this.getBrowserInfo()=="chrome"){
-            //     alert("您正在使用谷歌浏览器下载，如果下载失败，请更换其他浏览器重试");
-        }
-        // window.location = url;
-        window.open(url);
-    }
-
-    $("#download_apk2").click(function () {
-        $("#download_list_pc .win").hide();
-        $("#download_list_pc .osx").hide();
-        $("#download_list_pc .apk").show();
-        $("#download_list_pc").show();
-    });
-    $("#download_apk3").click(function () {
-        $("#download_list_pc .win").hide();
-        $("#download_list_pc .osx").hide();
-        $("#download_list_pc .apk").show();
-        $("#download_list_pc").show();
-    });
-    $("#download_mac2").click(function () {
-        $("#download_list_pc .win").hide();
-        $("#download_list_pc .osx").show();
-        $("#download_list_pc .apk").hide();
-        $("#download_list_pc").show();
-    });
-    $("#download_windows2").click(function () {
-        $("#download_list_pc .win").show();
-        $("#download_list_pc .osx").hide();
-        $("#download_list_pc .apk").hide();
-        $("#download_list_pc").show();
-    });
-    $("#download_windows3").click(function () {
-        $("#download_list_pc .win").show();
-        $("#download_list_pc .osx").hide();
-        $("#download_list_pc .apk").hide();
-        $("#download_list_pc").show();
-    });
-
-
-
-    function pcdownlist(o){
-        var left = getPosition(o,'left');
-        var top = getPosition(o,'top');
-
-        $(".download_list").css({"width":o.offsetWidth+"px","left":left +"px", "top":(top+o.offsetHeight)+"px"});
-        $(".download_list").show();
-    }
-
-    function getBrowserInfo(){
-        var ua = navigator.userAgent.toLocaleLowerCase();
-        var browserType=null;
-        if (ua.match(/msie/) != null || ua.match(/trident/) != null) {
-            browserType = "IE";
-            browserVersion = ua.match(/msie ([\d.]+)/) != null ? ua.match(/msie ([\d.]+)/)[1] : ua.match(/rv:([\d.]+)/)[1];
-        } else if (ua.match(/firefox/) != null) {
-            browserType = "火狐";
-        }else if (ua.match(/ubrowser/) != null) {
-            browserType = "UC";
-        }else if (ua.match(/opera/) != null) {
-            browserType = "欧朋";
-        } else if (ua.match(/bidubrowser/) != null) {
-            browserType = "百度";
-        }else if (ua.match(/metasr/) != null) {
-            browserType = "搜狗";
-        }else if (ua.match(/tencenttraveler/) != null || ua.match(/qqbrowse/) != null) {
-            browserType = "QQ";
-        }else if (ua.match(/maxthon/) != null) {
-            browserType = "遨游";
-        }else if (ua.match(/chrome/) != null) {
-            var isGoogle = _mime("type", "application/vnd.chromium.remoting-viewer");
-            function _mime(option, value) {
-                var mimeTypes = navigator.mimeTypes;
-                console.log(mimeTypes)
-                for (var mt in mimeTypes) {
-                    console.log(mimeTypes[mt][option])
-                    if ((mimeTypes[mt][option]+"").indexOf("360") > 0) {
-                        return false;
-                    }
-                    if ((mimeTypes[mt][option]+"").indexOf("application/x-google-chrome") >= 0) {
-                        return true;
-                    }
-                }
-                return true;
-            }
-            console.log(isGoogle)
-            if(isGoogle){
-                browserType = "chrome";
-            }else{
-                browserType = "other";
-            }
-        }else if (ua.match(/safari/) != null) {
-            browserType = "Safari";
-        }
-        return browserType;
-    }
-
-
-    function advertising(){
-        $("#tg").modal("show");
-
-    // $.confirm({
-    //     title: '联系卡',
-    //     content: '' +
-    //         '<form action="" class="formName">' +
-    //         '<div class="form-group">' +
-    //         '<label>联系方式</label>' +
-    //         '<input type="text" placeholder="请输入电报或邮箱" class="email form-control" required />' +
-    //         '<label>说明</label>' +
-    //         '<textarea class="remark form-control" placeholder="请详细说明您的来意，我们将在两天内给您回复。"></textarea>' +
-    //         '<span class="xinfo">您也可以直接联系我们的邮箱：chuhaibj@proton.me<br>此处仅用于合作渠道联系，若有其他问题请在APP内联系客服。</span></div>' +
-    //         '</form>',
-    //     buttons: {
-    //         formSubmit: {
-    //             text: '提交',
-    //             btnClass: 'btn-blue',
-    //             action: function () {
-    //                 var email = this.$content.find('.email').val();
-    //                 var url = this.$content.find('.url').val();
-    //                 var remark = this.$content.find('.remark').val();
-    //                 if(!email){
-    //                     $.alert('请输入电报或邮箱');
-    //                     return false;
-    //                 }
-    //                 if(!remark){
-    //                     $.alert('请输入描述内容');
-    //                     return false;
-    //                 }
-
-
-    //                 $.ajax({
-    //                     type: "POST",
-    //                     contentType: "application/x-www-form-urlencoded; charset=utf-8",
-    //                     url: "/xapi/concat",
-    //                     data: {email:email,url:"",remark:remark},
-    //                     success: function (r) {
-    //                         console.log(r)
-    //                         $("#loading").hide();
-
-    //                         $.alert({
-    //                             title: "系统提示",
-    //                             content: "保存成功！我们会在3天内给您答复。",
-    //                             buttons: {
-    //                                 confirm: {
-    //                                     text: '确认',
-    //                                     action: function () {
-    //                                         window.location.reload();
-    //                                     }
-    //                                 }
-    //                             }
-    //                         });
-
-    //                     },
-    //                     beforeSend: function (XMLHttpRequest) {
-    //                         $("#loading").show();
-    //                     },
-    //                     error: function (e) {
-    //                         console.log(e);
-    //                         $("#loading").hide();
-    //                         console.log(e.status);
-    //                         console.log(e.responseText);
-    //                     }
-    //                 });
-                    
-
-    //                 // $.alert('Your name is ' + name);
-    //             }
-    //         },
-    //         cancel: {
-    //             text: '取消',
-    //             action:function () {
-    //                 //close
-    //             }
-    //         },
-    //     },
-    //     onContentReady: function () {
-    //         // bind to events
-    //         var jc = this;
-    //         this.$content.find('form').on('submit', function (e) {
-    //             // if the user submits the form by pressing enter in the field.
-    //             e.preventDefault();
-    //             jc.$formSubmit.trigger('click'); // reference the button and click it
-    //         });
-    //     }
-    // });
-
-    }
-
-</script>
+    <h3>关于白鲸加速器破解版/vip破解版</h3>
+    <p>
+	首先白鲸加速器的 VIP 线路时无法被破解的，使用破解版软件会有使手机中病毒的风险，况且白鲸加速器官方提供了 免费VPN 套餐与 付费VPN 套餐，完全没有必要冒风险去使用破解版 VPN 应用。
+    </p>
+    <h3>白鲸加速器怎么样？</h3>
+    <p>数万用户已经体验了白鲸加速器带来的网络畅享，听听他们如何评价：</p>
+    <p>“首先这是一句诚恳的 VPN推荐，使用下载白鲸加速器后，我的网络连接变得更加流畅，而且不再担心网络隐私的问题。” - Sam</p>
+    <p>“白鲸加速器是我用过的最好用的 VPN app 之一，起初只是当做备用，给予我快速 稳定VPN 网络体验，安全可靠。” - miao</p>
+<footer>
+    <p>&copy; 2024 <a href="https://xn--yfrw1g6t2b8ovxfn.com">白鲸加速器</a></p>
+</footer>
 </body>
 </html>
